@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">"EggplantFastPass "</string>
+    <string name="send">我要发送</string>
+    <string name="receive">我要接收</string>
+</resources>

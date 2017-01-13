@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <!--发送与接收布局-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tv_bg_selector"
+        android:onClick="onTvClick"
+        android:paddingBottom="@dimen/padding_bottom_10"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="@dimen/padding_top_10"
+        android:text="@string/send" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_top_10"
+        android:background="@drawable/tv_bg_selector"
+        android:onClick="onTvClick"
+        android:paddingBottom="@dimen/padding_bottom_10"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="@dimen/padding_top_10"
+        android:text="@string/receive" />
+
+</LinearLayout>

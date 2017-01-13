@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_d97062ef2576cbaa141f276a91630d5f1dbeeba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b5c9e82bc4b4d5f66964a3be299bed72991bba8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_67f8cf4c122d8634a89b4915e58db17edb7a7cfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_ac545880bafe48b6bc9ea7e3a2d13cfa12416268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_4361603c4531b8490b73aa205f43441912a3a4a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6287093308911812a020a3856c24f7f3c7bc4589.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\EggplantFastPass\materiallibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8ccf7b5d4be41cb3843d77feb83a7b43fd7b4766">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\EggplantFastPass-materiallibrary-unspecified_73b76e0d8c1362783082c0a5453a20ebc723b9c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\1\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\glide-3.7.0_6ab39102c514af14fa542f67563566fe9bf2891d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_e4bdb3ee40368aa1ab5e9ede219e31bd4b9840b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_788aa86902d62d4e62187d90a991194d670f1645.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\BaiduYunDownload\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_d975a59d1ac36f7d41db07f6d5949bb242aa9d05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_7c7c58dfba7d893b6ec948ea6552528044c08771.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_dcde0232faabf4350ea391b73a5469d484146e1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8e9629d0bf79e460d8a2e4f4ef92ac951ad04a2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_ec65ebdeb317ca8946bfb9d274540858480c0da9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_dbfeca163d6f1160a3f09cbc88f0a4d45d0fa2d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\1\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_dd5ec6c26fe32774fb03a7750f840c8a00839792.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_5f215ca9d645d8a01574fdf2eed294a1ddcac402.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_0f719de87d438587797cce038772c0e06c7e70f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a1df9521bbbe37ac882ff7005435f5a3173d1409.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\myjob\github\EggplantFastPass\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="F:\myjob\github\EggplantFastPass\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_0f7de25f8eb096391244698557e26b1a47d0a7b0.jar" />
+    </item>
+
+</items>
