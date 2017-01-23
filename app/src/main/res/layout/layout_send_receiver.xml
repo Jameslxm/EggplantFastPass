@@ -7,11 +7,11 @@
     android:orientation="vertical">
     <!--发送与接收布局-->
     <TextView
+        android:id="@+id/id_tv_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/tv_bg_selector"
-        android:onClick="onTvClick"
         android:paddingBottom="@dimen/padding_bottom_10"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
@@ -19,12 +19,12 @@
         android:text="@string/send" />
 
     <TextView
+        android:id="@+id/id_tv_receive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/margin_top_10"
         android:background="@drawable/tv_bg_selector"
-        android:onClick="onTvClick"
         android:paddingBottom="@dimen/padding_bottom_10"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"

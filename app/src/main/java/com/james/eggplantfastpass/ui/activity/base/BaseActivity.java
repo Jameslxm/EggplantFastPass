@@ -2,20 +2,21 @@ package com.james.eggplantfastpass.ui.activity.base;
 
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import com.james.eggplantfastpass.R;
 
 import org.james.material.statusbar.StatusBarUtil;
-import org.james.material.swipebacklayout.SwipeBackActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by 1 on 2016/9/20.
+ * Created by Administrator on 2017/1/15 0015.
  */
-public abstract class BaseActivity extends SwipeBackActivity {
+
+public abstract class BaseActivity extends AppCompatActivity {
     @BindView(R.id.toolbar)
     protected Toolbar toolbar;
     @Override

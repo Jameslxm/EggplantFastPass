@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/po"
+            android:title="@string/link_computer"/>
+        <item
+            android:icon="@drawable/pr"
+            android:title="@string/web_page_spread"/>
+        <item
+            android:icon="@drawable/ph"
+            android:title="@string/space_clean_up"/>
+        <item
+            android:icon="@drawable/pn"
+            android:title="@string/application_of_lock"/>
+        <item
+            android:icon="@drawable/pi"
+            android:title="@string/eggplant_replacement"/>
+        <item
+            android:icon="@drawable/pp"
+            android:title="@string/setting"/>
+        <item
+            android:icon="@drawable/pq"
+            android:title="@string/check_version" />
+        <item
+            android:icon="@drawable/pj"
+            android:title="@string/help_feed_back"/>
+        <item
+            android:icon="@drawable/pg"
+            android:title="@string/about"/>
+
+    </group>
+</menu>

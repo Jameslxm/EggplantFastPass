@@ -1,5 +1,24 @@
 <resources>
-    <string name="app_name">"EggplantFastPass "</string>
+    <string name="app_name">茄子快传</string>
+    <string name="link_computer">连接电脑</string>
+    <string name="web_page_spread">网页传</string>
+    <string name="space_clean_up">空间清理</string>
+    <string name="application_of_lock">应用锁</string>
+    <string name="eggplant_replacement">茄子换机</string>
+    <string name="setting">设置</string>
+    <string name="check_version">检查版本</string>
+    <string name="help_feed_back">帮助与反馈</string>
+    <string name="about">关于</string>
+
     <string name="send">我要发送</string>
     <string name="receive">我要接收</string>
+
+    <string-array name="titles">
+        <item>文件</item>
+        <item>视频</item>
+        <item>应用</item>
+        <item>图片</item>
+        <item>音乐</item>
+    </string-array>
+
 </resources>
