@@ -82,6 +82,7 @@ public class ChooseFileActivity extends BaseActivity {
                 ChooseFileActivity.this);
         sampleFragmentPagerAdapter.addFragmentToList(fragmentList);
         viewPager.setAdapter(sampleFragmentPagerAdapter);
+        viewPager.setOffscreenPageLimit(sampleFragmentPagerAdapter.getCount());
         tabLayout.setupWithViewPager(viewPager);
         viewPager.setCurrentItem(2);
     }

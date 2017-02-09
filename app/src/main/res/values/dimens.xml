@@ -10,6 +10,12 @@
     <dimen name="margin_right_10">10dp</dimen>
     <dimen name="margin_bottom_10">10dp</dimen>
     <!--padding-->
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_left_5">5dp</dimen>
+    <dimen name="padding_top_5">5dp</dimen>
+    <dimen name="padding_right_5">5dp</dimen>
+    <dimen name="padding_bottom_5">5dp</dimen>
+
     <dimen name="padding_10">10dp</dimen>
     <dimen name="padding_left_10">10dp</dimen>
     <dimen name="padding_top_10">10dp</dimen>
@@ -23,4 +29,5 @@
     <dimen name="padding_bottom_16">16dp</dimen>
 
 
+    <dimen name="tv_des">10sp</dimen>
 </resources>

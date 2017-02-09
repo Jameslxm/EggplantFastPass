@@ -21,4 +21,14 @@
         <item>音乐</item>
     </string-array>
 
+    <string name="msg_empty">无新数据</string>
+    <string name="error_tip">网络出错，请检查网络</string>
+    
+    <string name="type_classification">按文件类型分类</string>
+    <string name="regime_classification">按文件路径分类</string>
+    <string name="document">文档</string>
+    <string name="compress">压缩文件</string>
+    <string name="e_book">电子书</string>
+
+    <string name="internal_storage_device">内部存储设备</string>
 </resources>

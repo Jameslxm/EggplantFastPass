@@ -1,6 +1,7 @@
 package org.james.material.utils;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.widget.Toast;
 
 /**
@@ -36,5 +37,22 @@ public class ToastUtil {
             toast.setText(content);
         }
         toast.show();
+    }
+
+    /**
+     * 短时间显示
+     * @param context
+     * @param id
+     */
+    public static void showShortToast(Context context,int id){
+        String content = context.getString(id);
+        if(!TextUtils.isEmpty(content)) {
+            if (toast == null) {
+                toast = Toast.makeText(context, content, Toast.LENGTH_SHORT);
+            } else {
+                toast.setText(content);
+            }
+            toast.show();
+        }
     }
 }

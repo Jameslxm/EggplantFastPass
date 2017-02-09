@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/EggplantFastPass.iml" filepath="$PROJECT_DIR$/EggplantFastPass.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/materiallibrary/materiallibrary.iml" filepath="$PROJECT_DIR$/materiallibrary/materiallibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stickyrecyclerlibrary/stickyrecyclerlibrary.iml" filepath="$PROJECT_DIR$/stickyrecyclerlibrary/stickyrecyclerlibrary.iml" />
     </modules>
   </component>
 </project>

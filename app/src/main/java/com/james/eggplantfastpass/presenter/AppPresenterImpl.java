@@ -1,4 +1,6 @@
 package com.james.eggplantfastpass.presenter;
+import android.content.Context;
+
 import com.james.eggplantfastpass.contract.AppContract;
 import com.james.eggplantfastpass.model.AppModelImpl;
 
@@ -14,7 +16,7 @@ public class AppPresenterImpl implements AppContract.AppPresenter{
     }
 
     @Override
-    public void getData(AppContract.AppView appView) {
-        appModel.getData(appView);
+    public void getData(Context context, AppContract.AppView appView) {
+        appModel.getData(context,appView);
     }
 }
