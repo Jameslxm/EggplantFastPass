@@ -59,7 +59,7 @@ public class ChooseFileActivity extends BaseActivity {
         toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                finish();
             }
         });
 

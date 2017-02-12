@@ -2,30 +2,39 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/id_menu_link_computer"
             android:icon="@drawable/po"
             android:title="@string/link_computer"/>
         <item
+            android:id="@+id/id_menu_web_page_spread"
             android:icon="@drawable/pr"
             android:title="@string/web_page_spread"/>
         <item
+            android:id="@+id/id_menu_space_clean_up"
             android:icon="@drawable/ph"
             android:title="@string/space_clean_up"/>
         <item
+            android:id="@+id/id_menu_application_of_lock"
             android:icon="@drawable/pn"
             android:title="@string/application_of_lock"/>
         <item
+            android:id="@+id/id_menu_eggplant_replacement"
             android:icon="@drawable/pi"
             android:title="@string/eggplant_replacement"/>
         <item
+            android:id="@+id/id_menu_setting"
             android:icon="@drawable/pp"
             android:title="@string/setting"/>
         <item
+            android:id="@+id/id_menu_check_version"
             android:icon="@drawable/pq"
             android:title="@string/check_version" />
         <item
+            android:id="@+id/id_menu_help_feed_back"
             android:icon="@drawable/pj"
             android:title="@string/help_feed_back"/>
         <item
+            android:id="@+id/id_menu_about"
             android:icon="@drawable/pg"
             android:title="@string/about"/>
 

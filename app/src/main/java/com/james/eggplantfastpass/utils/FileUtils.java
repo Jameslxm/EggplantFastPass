@@ -272,13 +272,14 @@ public class FileUtils {
         MyLog.d("title:--------");
         List<VideoInfoBean> videoInfoBeanList = new ArrayList<>();
         //查找数据
-        String[] projection = new String[]{MediaStore.Video.Media.TITLE,MediaStore.Video.Media.DATA};
+        String[] projection = new String[]{MediaStore.Video.Media.TITLE,MediaStore.Video.Media.DATA,MediaStore.Video.Media.SIZE};
         String orderSort = MediaStore.Video.Media.DEFAULT_SORT_ORDER;
         Cursor cursor = context.getContentResolver().query(MediaStore.Video.Media.EXTERNAL_CONTENT_URI,projection,null,null,orderSort);
         if(cursor != null) {
             while (cursor.moveToNext()) {
                 String title = cursor.getString(0);
                 String data = cursor.getString(1);
+                String size = cursor.getString(2);
                 String folder = null;
                 if(!TextUtils.isEmpty(data)){
                     int lastBackslashIndex = data.lastIndexOf("/");
@@ -288,9 +289,15 @@ public class FileUtils {
                         folder = temp.substring(tempBackslashIndex+1);
                         MyLog.d("folder:" + folder);
                     }
+                    long sizeToLong = 0;
+                    if(!TextUtils.isEmpty(size)) {
+                         sizeToLong = Long.parseLong(size);
+                    }
+                    String targetSize = getFileSize(sizeToLong);
                     VideoInfoBean videoInfoBean = new VideoInfoBean();
                     videoInfoBean.setTitle(title);
                     videoInfoBean.setData(data);
+                    videoInfoBean.setSize(targetSize);
                     videoInfoBean.setFolder(folder);
                     videoInfoBeanList.add(videoInfoBean);
                     MyLog.d("title:"+title+";data:"+data);

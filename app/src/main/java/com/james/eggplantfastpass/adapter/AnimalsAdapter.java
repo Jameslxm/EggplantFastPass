@@ -4,6 +4,8 @@ import android.support.v7.widget.RecyclerView;
 
 import com.james.eggplantfastpass.bean.VideoInfoBean;
 
+import org.james.material.utils.MyLog;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -69,10 +71,14 @@ public abstract class AnimalsAdapter<VH extends RecyclerView.ViewHolder>
   @Override
   public long getItemId(int position) {
     return videoInfoBeanArrayList.get(position).getFolder().hashCode();
+//    return items.get(position).hashCode();
   }
 
   @Override
   public int getItemCount() {
-    return videoInfoBeanArrayList.size();
+    int size = videoInfoBeanArrayList.size();
+//    int size = items.size();
+    MyLog.d("getItemCount size:"+size);
+    return size;
   }
 }

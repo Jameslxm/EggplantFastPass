@@ -3,6 +3,8 @@ package com.james.eggplantfastpass.ui.fragments;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import com.james.eggplantfastpass.R;
 import com.james.eggplantfastpass.adapter.VideoAdapter;
@@ -27,7 +29,8 @@ import butterknife.BindView;
 public class VideoFragment extends BaseLazyFragment implements VideoContract.VideoView{
     @BindView(R.id.id_recyclerview)
     RecyclerView recyclerView;
-
+    @BindView(R.id.id_ll_no_content_tip)
+    LinearLayout llNoContent;
     // 标志位，标志已经初始化完成。
     private boolean isPrepared;
     private boolean isFirst = true;
@@ -44,10 +47,10 @@ public class VideoFragment extends BaseLazyFragment implements VideoContract.Vid
         videoPresenter = new VideoPresenterImpl();
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         videoAdapter = new VideoAdapter();
-
         recyclerView.setAdapter(videoAdapter);
-
-        // Add decoration for dividers between list items
+        final StickyRecyclerHeadersDecoration headersDecor = new StickyRecyclerHeadersDecoration(videoAdapter);
+        recyclerView.addItemDecoration(headersDecor);
+        recyclerView.addItemDecoration(new DividerDecoration(getActivity()));
         lazyLoad();
     }
     @Override
@@ -58,8 +61,6 @@ public class VideoFragment extends BaseLazyFragment implements VideoContract.Vid
         }
         isFirst = false;
         getData();
-
-
     }
 
     //获取数据
@@ -72,13 +73,13 @@ public class VideoFragment extends BaseLazyFragment implements VideoContract.Vid
 
         //显示数据
         if(videoInfoBeanList.size() > 0){
+            recyclerView.setVisibility(View.VISIBLE);
+            llNoContent.setVisibility(View.GONE);
             videoAdapter.addAll(videoInfoBeanList);
-            final StickyRecyclerHeadersDecoration headersDecor = new StickyRecyclerHeadersDecoration(videoAdapter);
-            recyclerView.addItemDecoration(headersDecor);
-            recyclerView.addItemDecoration(new DividerDecoration(getActivity()));
             MyLog.d("size:"+videoInfoBeanList.size());
         }else {
-            ToastUtil.showShortToast(getActivity(),R.string.msg_empty);
+            llNoContent.setVisibility(View.VISIBLE);
+            recyclerView.setVisibility(View.GONE);
         }
 
     }
@@ -86,5 +87,4 @@ public class VideoFragment extends BaseLazyFragment implements VideoContract.Vid
     public void onFailShow() {
         ToastUtil.showShortToast(getActivity(),R.string.error_tip);
     }
-
 }

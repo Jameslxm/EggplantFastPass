@@ -8,7 +8,7 @@ public class VideoInfoBean {
     private String folder;
     private String title;
     private String data;
-
+    private String size;
     public String getFolder() {
         return folder;
     }
@@ -31,5 +31,13 @@ public class VideoInfoBean {
 
     public void setData(String data) {
         this.data = data;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 }

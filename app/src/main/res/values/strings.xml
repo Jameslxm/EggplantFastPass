@@ -31,4 +31,5 @@
     <string name="e_book">电子书</string>
 
     <string name="internal_storage_device">内部存储设备</string>
+    <string name="empty_msg_tip">本地没有视频</string>
 </resources>

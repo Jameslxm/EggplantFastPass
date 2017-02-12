@@ -20,6 +20,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".ui.activity.ChooseFileActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.AboutActivity"
+            android:screenOrientation="portrait"/>
     </application>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
