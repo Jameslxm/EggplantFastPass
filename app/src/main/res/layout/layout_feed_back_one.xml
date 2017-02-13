@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/id_ll_transmission_problem"
+            style="@style/FeedBackLL"
+            >
+
+            <TextView
+                style="@style/FeedBackLL.Text1"
+                android:text="@string/transmission_problem"/>
+
+            <TextView
+                style="@style/FeedBackLL.Text2"
+                android:text="@string/transmission_break_slow_speed"
+                 />
+        </LinearLayout>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorLine"/>
+        <LinearLayout
+            android:id="@+id/id_ll_connection_problem"
+            style="@style/FeedBackLL">
+
+            <TextView
+                style="@style/FeedBackLL.Text1"
+                android:text="@string/connection_problem"
+                 />
+
+            <TextView
+                style="@style/FeedBackLL.Text2"
+                android:text="@string/can_not_find_not_even"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/id_ll_storage_problem"
+            style="@style/FeedBackLL"
+            >
+
+            <TextView
+                style="@style/FeedBackLL.Text1"
+                android:text="@string/storage_problem"/>
+
+            <TextView
+                style="@style/FeedBackLL.Text2"
+                android:text="@string/can_not_save_can_not_find"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorLine"/>
+        <LinearLayout
+            android:id="@+id/id_ll_specific_type_problem"
+            style="@style/FeedBackLL">
+
+            <TextView
+                style="@style/FeedBackLL.Text1"
+                android:text="@string/specific_type_problem"
+                />
+
+            <TextView
+                style="@style/FeedBackLL.Text2"
+                android:text="@string/model"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

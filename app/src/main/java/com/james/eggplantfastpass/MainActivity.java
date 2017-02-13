@@ -17,6 +17,7 @@ import com.james.eggplantfastpass.model.Three;
 import com.james.eggplantfastpass.model.Two;
 import com.james.eggplantfastpass.model.Visitable;
 import com.james.eggplantfastpass.ui.activity.AboutActivity;
+import com.james.eggplantfastpass.ui.activity.HelpAndFeedBackActivity;
 import com.james.eggplantfastpass.ui.activity.base.BaseActivity;
 
 import java.util.ArrayList;
@@ -121,7 +122,8 @@ public class MainActivity extends BaseActivity {
                 break;
             //帮助与反馈
             case R.id.id_menu_help_feed_back:
-
+                Intent helpAndFeedBackIntent = new Intent(MainActivity.this, HelpAndFeedBackActivity.class);
+                startActivity(helpAndFeedBackIntent);
                 break;
             //关于
             case R.id.id_menu_about:

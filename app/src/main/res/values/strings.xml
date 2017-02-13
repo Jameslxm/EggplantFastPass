@@ -32,4 +32,24 @@
 
     <string name="internal_storage_device">内部存储设备</string>
     <string name="empty_msg_tip">本地没有视频</string>
+    <string name="feedback">意见反馈</string>
+    <string name="transmission_problem">传输问题</string>
+    <string name="transmission_break_slow_speed">传输断、速度慢</string>
+    <string name="connection_problem">连接问题</string>
+    <string name="can_not_find_not_even">找不到、连不上</string>
+    <string name="storage_problem">存储问题</string>
+    <string name="can_not_save_can_not_find">存不到、找不到</string>
+    <string name="specific_type_problem">特定机型问题</string>
+    <string name="model">MI、Nexus7</string>
+    <string name="hotspot_issues">热点问题</string>
+    <string-array name="hotspot_issues_array">
+        <item>升级到新版本后无法正常收发？</item>
+        <item>传输数度慢？</item>
+        <item>传输过程中断？</item>
+        <item>发送方选择接收方头像后无法连接？</item>
+        <item>找不到周围的接收者？</item>
+        <item>如何将文件保存到SD卡？</item>
+        <item>启动茄子后多次闪退？</item>
+        <item>小米手机安全设置方法</item>
+    </string-array>
 </resources>

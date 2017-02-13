@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorBtnPressLine">#277CDF</color>
     <color name="colorBtnPressBg">#0E6AD6</color>
+    <color name="colorLine">#E7E7E7</color>
+    <color name="lightBlue">#2F9CF6</color>
 </resources>

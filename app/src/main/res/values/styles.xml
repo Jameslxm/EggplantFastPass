@@ -20,4 +20,32 @@
     <style name="ActionBarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">@android:color/white</item>
     </style>
+    <!--Wrap Wrap-->
+    <style name="WrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--feed back-->
+    <style name="FeedBackLL" parent="@style/WrapWrap">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding_10</item>
+    </style>
+
+    <!--feed back text1-->
+    <style name="FeedBackLL.Text1" parent="@style/WrapWrap">
+        <item name="android:textColor">@color/lightBlue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--feed back text2-->
+    <style name="FeedBackLL.Text2" >
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingTop">@dimen/padding_top_10</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>

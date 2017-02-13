@@ -3,7 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/id_rl_connect_us"
         android:layout_width="match_parent"
@@ -20,10 +23,15 @@
            android:layout_height="wrap_content"
            android:layout_alignParentRight="true"/>
     </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"/>
     <LinearLayout
         android:id="@+id/id_ll_list_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#F9F9F9"
         android:orientation="vertical">
         <RelativeLayout
             android:layout_width="match_parent"
@@ -33,7 +41,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="联系我们" />
+                android:text="&#160;&#160;&#160;&#160;微博：茄子快传" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -41,6 +49,10 @@
                 android:layout_alignParentRight="true"
                 android:src="@drawable/ic_arrow" />
         </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLine"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +61,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="联系我们" />
+                android:text="&#160;&#160;&#160;&#160;论坛：百度贴吧" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -57,5 +69,49 @@
                 android:layout_alignParentRight="true"
                 android:src="@drawable/ic_arrow" />
         </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLine"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#160;&#160;&#160;&#160;微信" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_arrow" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLine"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="&#160;&#160;&#160;&#160;Q群" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_arrow" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLine"/>
     </LinearLayout>
 </LinearLayout>
