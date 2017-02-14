@@ -52,4 +52,19 @@
         <item>启动茄子后多次闪退？</item>
         <item>小米手机安全设置方法</item>
     </string-array>
+    <string name="general_settings">常规设置</string>
+    <string name="file_storage_location">文件存储位置/内部存储设备/QieZi</string>
+    <string name="wipe_cache">清空缓存</string>
+    <string name="confirm_connection">连接前确认</string>
+    <string name="data_network_protection">数据网络保护</string>
+    <string name="update_information">仅在WI-FI网络更新资讯使用2G/3G/4G网络时不更新资讯信息</string>
+    <string name="multi_language">多语言中文（中国）</string>
+    <string name="advanced_etting">高级设置</string>
+    <string name="local_net">传输时优先局域网,传输时，优先使用局域网进行连接，关闭则优先使用热点网络</string>
+    <string name="show_hidden_files">显示隐藏文件选择文件时显示系统的隐藏文件</string>
+    <string name="burn_after_installation">安装后即焚</string>
+    <string name="transmission_channel">传输通道优化单通道</string>
+    <string name="hotspot_encryption">热点加密加密后对方需升级到最新版本</string>
+    <string name="hotspot_encryption">WiFi直连启用WiFi直连，连接更快捷（实验功能，存在不稳定性）</string>
+
 </resources>

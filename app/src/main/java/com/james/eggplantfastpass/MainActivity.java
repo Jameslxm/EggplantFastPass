@@ -18,6 +18,7 @@ import com.james.eggplantfastpass.model.Two;
 import com.james.eggplantfastpass.model.Visitable;
 import com.james.eggplantfastpass.ui.activity.AboutActivity;
 import com.james.eggplantfastpass.ui.activity.HelpAndFeedBackActivity;
+import com.james.eggplantfastpass.ui.activity.SettingActivity;
 import com.james.eggplantfastpass.ui.activity.base.BaseActivity;
 
 import java.util.ArrayList;
@@ -113,7 +114,8 @@ public class MainActivity extends BaseActivity {
 
             //设置
             case R.id.id_menu_setting:
-
+                Intent settingIntent = new Intent(MainActivity.this, SettingActivity.class);
+                startActivity(settingIntent);
                 break;
 
             //检查版本
